@@ -1,8 +1,6 @@
-def temLetrau():
-    letra = str(input('Informe a frase: '))
-    if 'u' in letra:
-        print('Tem a letra u.')
-    else:
-        print('Não tem letra u.')
+sexo = str(input('sexo: ')).upper()
 
-temLetrau()
+while sexo not in 'MmFf':
+    sexo = str(input('sexooooooo: '))
+
+print(sexo)
