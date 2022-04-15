@@ -1,5 +1,7 @@
 from flask import Flask , render_template, jsonify, request
 
+# flask importa todas as ''portas' automaticamente na pasta de templates
+
 app = Flask(__name__)
 
 @app.route('/')
